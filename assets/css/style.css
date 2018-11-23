@@ -252,6 +252,8 @@ p {
 }
 
 .proj .thumb {
+	margin-left: 10%;
+	text-align: center;
 	width: 80%;
 	height: 60%;
 	border: 2px solid #660099;
@@ -300,6 +302,7 @@ p {
 		bottom: 10%;
 		right: 0;
 		animation-name: entry;
+		animation-timing-function: linear;
 		animation-duration: .48s;
 	}
 
