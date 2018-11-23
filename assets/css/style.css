@@ -308,6 +308,7 @@ p {
 		transform: rotate(90deg) translate(15%, -175%);
 	}
 
+
 	.introtext {
 		position: relative;
 		transform: translateY(20%);
@@ -373,6 +374,10 @@ p {
 		bottom: 20%;
 		left: 5%;
 	}
+
+	.proj .thumb {
+		height: 120px;
+	}
 }
 
 @media only screen and (max-width: 425px) {
@@ -437,7 +442,7 @@ p {
 
 	.proj .thumb {
 		width: 80%;
-		height: 40%;
+		height: 120px;
 		border: 1px solid #660099;
 		border-radius: 50%;
 	}
