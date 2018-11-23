@@ -17,29 +17,29 @@
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> 
 </head>
 <body>
-	<header id="home" class="row clear">
+	<header id="home" class="container-fluid">
+		<div class="row">
+			<div id="valignwrapper" class="col-lg-6 offset-lg-6 col-md-12 col-12">
+				<div id="valign" class="intro clear col-12 pl-md-4 p-2">
+					<div id="abs" class="row animated fadeInRight delay fast">
+						<div class="introtext col-lg-7 col-6">
+							<h1>Joseph Ledesma</h1>
+							<h2>Web Developer, Fullstack</h2>
 
-		<div id="valignwrapper" class="col-lg-6 offset-lg-6 col-md-9 offset-md-3 col-12">
-			<div id="valign" class="intro clear col-12 pl-4 pt-2">
-				<div id="abs" class="row animated fadeInRight delay fast">
-					<div class="introtext col-7">
-						<h1>Joseph Ledesma</h1>
-						<h2>Web Developer, Fullstack</h2>
-
-						<p>Hello! I am 26 years-old, based in Manila. Check out the links below to learn more about me and my work.</p>
+							<p>Hello! I am 26 years-old, based in Manila. Check out the links below to learn more about me and my work.</p>
+						</div>
+						<img id="me" class="col-lg-5 col-6" src="assets/images/realme.JPG">
 					</div>
-					<img id="me" class="col-5" src="assets/images/realme.JPG">
-				</div>
-				<div id="boxpill" class="row">
-					<ul class="nav nav-pills">
-						<li class="item nav-item animated fadeInRight delay-2s fast"><a class="nav-link" href="#work">My Work</a></li>
-						<li class="item nav-item animated fadeInRight delay2 fast"><a class="nav-link" href="#about">About Me</a></li>
-						<li class="item nav-item animated fadeInRight delay3 fast"><a class="nav-link" href="#contact">Contact</a></li>
-					</ul>
+					<div id="boxpill" class="row">
+						<ul class="nav nav-pills">
+							<li class="item nav-item animated fadeInRight delay-2s fast"><a class="nav-link" href="#work">My Work</a></li>
+							<li class="item nav-item animated fadeInRight delay2 fast"><a class="nav-link" href="#about">About Me</a></li>
+							<li class="item nav-item animated fadeInRight delay3 fast"><a class="nav-link" href="#contact">Contact</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-
 
 	</header>
 
@@ -49,16 +49,17 @@
 		
 	</nav> -->
 
-	<div class="main clear">
-		<div class="projects row clear">
-			<div id="work" class="projabt clear col-lg-4">
-				<h3>These are the projects I have worked on.</h3>
+	<div class="main container-fluid">
+		<div class="projects row">
+			<div class="projabt col-lg-4 col-md-6 col-12">
+				<h3 id="work">These are the projects I have worked on.</h3>
 				<p>See right -></p>
 				<h3>Relevant skillsets:</h3>
 				<p>html java ipsum yada yada</p>
 				<p><a href="#home">Top</a></p>				
 			</div>
-			<div class="projwrapper col-md-8 row">
+			<div class="projwrapper col-lg-8 col-md-6 col-12 container-fluid">
+				<div class="row">
 				<div class="proj clear col-6">
 					<a href="https://jfsledesma.github.io/pss/" target="_blank">
 						<img src="assets/images/sunglow.jpg" class="thumb">
@@ -89,11 +90,12 @@
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.</p>
 				</div>
+				</div>
 			</div>
 		</div>
 
 		<div id="about" class="about clear">
-			<div class="col-lg-4 abt">
+			<div class="col-lg-4 abt mx-auto">
 				<h3>Hello!</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
