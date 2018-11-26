@@ -33,10 +33,10 @@ Cream 			#eae0cc	(234,224,204)
 	animation-delay: 1.25s;
 }
 .delay2 {
-	animation-delay: 2.25s;
+	animation-delay: 1.75s;
 }
 .delay3 {
-	animation-delay: 2.5s;
+	animation-delay: 0.5s;
 }
 
 
@@ -94,7 +94,8 @@ header {
 }
 
 #valign {
-	background-image: linear-gradient(to right, rgb(61,0,91), rgb(61,0,91), rgba(61,0,91,.95), rgba(61,0,91,.9), rgba(61,0,91, 0));
+	/*background-image: linear-gradient(to right, rgb(61,0,91), rgb(61,0,91), rgba(61,0,91,.95), rgba(61,0,91,.9), rgba(61,0,91, 0));*/
+	background-color: rgb(61,0,91);
 	border-radius: 1.5% 0 0 1.5%;	
 	padding: 0;
 }
@@ -308,9 +309,9 @@ p {
 		height: 50vh;
 		bottom: 10%;
 		right: 0;
-		animation-name: entry;
+/*		animation-name: entry;
 		animation-timing-function: linear;
-		animation-duration: .48s;
+		animation-duration: .48s;*/
 	}
 
 	#me {
